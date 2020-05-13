@@ -1,0 +1,36 @@
+/*Main page css files*/
+
+.landing {
+  height: 100vh;
+  background-color: #1C1D21;
+  width: 100%; 
+}
+
+.innerlanding {
+  width: 50%; 
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+}
+
+.landingtext {
+  margin-left: auto;
+}
+
+/* Colours (following colour scheme picked out, and the closest colour to it as the class name*/
+.white {
+  color: #E6EBE0; 
+}
+
+.red {
+  color: #ED6A5A;
+}
+
+.teal {
+  color: #9BC1BC;
+}
+
+/* zero margin */
+.zeromargin {
+  margin: 0;
+}

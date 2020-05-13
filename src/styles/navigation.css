@@ -1,0 +1,28 @@
+.navitem {
+  cursor: pointer; 
+  background-color: #B94A3F;
+  padding: 1%;
+  margin: 1%; 
+  text-align: center;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.navitem:hover {
+  background-color: #7B2520;
+}
+
+.navigation {
+  background-color: #ED6A5A;
+  width: 100%; 
+}
+
+.row {
+  width: 100%;
+  margin: 0px;
+  padding: 1%;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
