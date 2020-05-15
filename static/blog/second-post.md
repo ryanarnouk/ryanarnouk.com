@@ -9,6 +9,7 @@ tags:
   - Java
   - Computers
 author: Ryan Arnouk
+image: assets/boris-baldinger-vekisvdviss-unsplash.jpg
 comments: true
 share: true
 ---
