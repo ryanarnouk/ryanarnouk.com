@@ -1,3 +1,6 @@
+---
+title: Skills
+---
 # Skills
 ## Languages
 - JavaScript
