@@ -12,6 +12,49 @@ collections:
     create: true
     fields: 
       - { name: path, label: Path }
-      - { name: date, label: Date, widget: datetime }
-      - { name: title, label: Title }
+      - { name: title, label: Title, widget: string }
+      - { name: date, label: Date, widget: date }
+      - { name: categories, label: Categories, required: false }
+      - { name: tags, label: Tags, widget: list, required: false }
+      - { name: author, label: Author, widget: hidden, default: Ryan Arnouk }
+      - { name: image, label: Header Image, widget: image, required: false }
+      - { name: comments, label: Commenting, widget: boolean, default:  true }
+      - { name: share, label: Sharing, widget: boolean, default: true }
       - { name: body, label: Body, widget: markdown }
+  - name: projects
+    label: Project
+    folder: static/projects
+    create: true
+    fields: 
+      - { name: title, label: Title, widget: string }
+      - { name: image, label: Project Image, widget: image }
+      - { name: link, label: Link, widget: string, required: false }
+      - { name: body, label: Body, widget: text }
+      - { name: order, label: Order, widget: number, default: 1, required: false }
+      - { name: tags, label: Tags, widget: list }
+      - { name: date, label: Date, widget: date, required: false }
+  - name: skills
+    label: Skills
+    folder: static/skills
+    create: true
+    fields: 
+      - { name: title, label: Title, widget: string }
+      - { name: date, label: Last Updated, widget: datetime }
+      - { name: body, label: Body, widget: markdown }
+  - name: about
+    label: About
+    folder: static/about
+    create: true
+    fields: 
+      - { name: title, label: Title, widget: string }
+      - { name: date, label: Last Updated, widget: datetime }
+      - { name: body, label: Body, widget: markdown }
+  - name: reading
+    label: Reading
+    folder: static/reading
+    create: true
+    fields: 
+    - { name: title, label: Title, widget: string }
+    - { name: image, label: Cover, widget: image, required: false }
+    - { name: body, label: Body, widget: text }
+    - { name: rating, label: Rating, widget: number, required: false }
