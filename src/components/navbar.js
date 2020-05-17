@@ -8,7 +8,7 @@ import '../styles/layout.css';
 
 const NavMenu = () => (
     <Navbar bg="dark" expand="lg" className="fixed-top navbar-dark">
-        <Navbar.Brand href="#home">Ryan Arnouk</Navbar.Brand>
+        <Navbar.Brand href="/">Ryan Arnouk</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
         <Nav className="justify-content-center">

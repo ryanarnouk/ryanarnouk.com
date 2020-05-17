@@ -2,11 +2,12 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 import Navigation from '../components/navigation';
 import Landing from '../components/main/landing';
+import About from '../components/main/about';
+import Skills from '../components/main/skills';
 
 const IndexPage = () => (
   <Layout>
@@ -14,6 +15,8 @@ const IndexPage = () => (
     <div>
       <Landing />
       <Navigation />
+      <About />
+      <Skills />
     </div>
   </Layout>
 )

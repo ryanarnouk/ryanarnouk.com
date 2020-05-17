@@ -11,7 +11,7 @@ function renderImage(file) {
 const Image = function ({file}) {
   return <StaticQuery
     query={graphql`
-      query MyQuery {
+      query ImageQuery {
         allFile(filter: {sourceInstanceName: {eq: "images"}}) {
           edges {
             node {

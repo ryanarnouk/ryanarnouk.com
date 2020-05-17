@@ -1,12 +1,12 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 
-export default function About() {
+export default function Skills() {
   return (
     <StaticQuery
       query={graphql`
-        query AboutQuery {
-          markdownRemark(frontmatter: {title: {eq: "About"}}) {
+        query SkillsQuery {
+          markdownRemark(frontmatter: {title: {eq: "Skills"}}) {
             html
             excerpt
           }
