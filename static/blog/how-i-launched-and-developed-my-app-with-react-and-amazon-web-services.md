@@ -1,7 +1,7 @@
 ---
 path: /how-i-
 title: How I Launched and Developed my App With React and Amazon Web Services
-date: 2020-05-20T23:21:46.442Z
+date: 2020-01-26T00:21:46.442Z
 categories:
   - code
   - computer science
