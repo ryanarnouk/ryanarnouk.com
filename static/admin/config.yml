@@ -14,13 +14,14 @@ collections:
       - { name: path, label: Path }
       - { name: title, label: Title, widget: string }
       - { name: date, label: Date, widget: date }
-      - { name: categories, label: Categories, required: false }
+      - { name: categories, label: Categories, widget: list, required: false }
       - { name: tags, label: Tags, widget: list, required: false }
       - { name: author, label: Author, widget: hidden, default: Ryan Arnouk }
       - { name: image, label: Header Image, widget: image, required: false }
       - { name: comments, label: Commenting, widget: boolean, default:  true }
       - { name: share, label: Sharing, widget: boolean, default: true }
       - { name: body, label: Body, widget: markdown }
+      - { name: type, label: Type, default: post, hidden: true }
   - name: projects
     label: Project
     folder: static/projects

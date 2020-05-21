@@ -1,5 +1,5 @@
 ---
-path: /how-i-
+path: /how-i-launched-and-developed-my-app-with-react-and-amazon-web-services
 title: How I Launched and Developed my App With React and Amazon Web Services
 date: 2019-01-25T08:00:00.000Z
 categories:
@@ -49,7 +49,8 @@ There are many great Medium and YouTube tutorials to set up your Cloudfront with
 
 ### #3 Domain Name
 Right now, the URL is really weird as Cloudfront gives you a long cloudfront.net URL. You want to get a domain name to give to others. 
-
+
+
 I love Google Domains. You can find a lot of good domains such as `.com .net .org`, etc for pretty good prices. I managed to purchase my domain `discover-machinelearning.com` for 17 dollars CAD. Google domains has free privacy protection with the domain.  
 
 After purchasing your domain you can start working on AWS, to use a domain name with your Cloudfront distribution you are required to use Route 53. Route 53 is a nice way to get your domain configured with your app, however, keep in mind you need to pay $0.50 a month.
