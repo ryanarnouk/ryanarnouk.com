@@ -86,4 +86,5 @@ collections:
     - { name: title, label: Title, widget: string }
     - { name: date, label: Last Updated, widget: datetime }
     - { name: type, label: Type, default: services, hidden: true }
+    - { name: body, label: Body, widget: markdown }
   
