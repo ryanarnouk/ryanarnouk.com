@@ -59,3 +59,31 @@ collections:
     - { name: image, label: Cover, widget: image, required: false }
     - { name: body, label: Body, widget: text }
     - { name: rating, label: Rating, widget: number, required: false }
+  - name: announcement
+    label: Announcement
+    folder: static/announcement
+    create: true
+    fields: 
+    - { name: title, label: Title, widget: string }
+    - { name: date, label: Last Updated, widget: datetime }
+    - { name: body, label: Body, widget: markdown }
+    - { name: type, label: Type, default: announcement, hidden: true }
+  - name: socials
+    labels: Socials
+    folder: static/socials
+    create: true
+    fields: 
+    - { name: title, label: Title, widget: string }
+    - { name: linkedin, label: LinkedIn, widget: string }
+    - { name: github, label: GitHub, widget: string }
+    - { name: twitter, label: Twitter, widget: string }
+    - { name: instagram, label: Instagram, widget: string }
+  - name: services
+    labels: Services
+    folder: static/services
+    create: true
+    fields: 
+    - { name: title, label: Title, widget: string }
+    - { name: date, label: Last Updated, widget: datetime }
+    - { name: type, label: Type, default: services, hidden: true }
+  

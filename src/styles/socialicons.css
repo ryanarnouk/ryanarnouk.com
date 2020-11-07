@@ -1,0 +1,45 @@
+.social-icons > *{
+  margin: 20px;
+  cursor: pointer;
+  color: white;
+  transition: color .30s ease-in-out;
+  /*vendor prefixes*/
+  -moz-transition: color  .30s ease-in-out;
+  -webkit-transition: color  .30s ease-in-out;
+  width: 30px;
+}
+
+.social-icons > *:hover {
+  color: grey;
+  transition: color .30s ease-in-out;
+  /*vendor prefixes*/
+  -moz-transition: color  .30s ease-in-out;
+  -webkit-transition: color  .30s ease-in-out;
+}
+
+.social-icons-black > *{
+  margin: 20px;
+  cursor: pointer;
+  color: black;
+  transition: color .30s ease-in-out;
+  /*vendor prefixes*/
+  -moz-transition: color  .30s ease-in-out;
+  -webkit-transition: color  .30s ease-in-out;
+}
+
+.social-icons-black > *:hover {
+  color: grey;
+  transition: color .30s ease-in-out;
+  /*vendor prefixes*/
+  -moz-transition: color  .30s ease-in-out;
+  -webkit-transition: color  .30s ease-in-out;
+}
+
+.social-icons-black > a > span {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.social-icons {
+  margin: 20px;
+}

@@ -1,25 +1,24 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 
-import '../../styles/sections.css';
+import '../styles/sections.css';
 
-export default function About() {
+export default function Services() {
   return (
-    <StaticQuery
+    <StaticQuery 
       query={graphql`
-        query AboutQuery {
-          markdownRemark(frontmatter: {title: {eq: "About"}}) {
+        query ServicesQuery {
+          markdownRemark(frontmatter: {title: {eq: "Services"}}) {
             frontmatter {
               title
             }
-            html
             excerpt
+            html
           }
         }
       `}
       render={data => (
-        <div className="about">
-          {/*<h1>{data.markdownRemark.frontmatter.title}</h1>*/}
+        <div className="services">
           <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
         </div>
       )}

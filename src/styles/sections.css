@@ -1,0 +1,13 @@
+.about h1, .skills h1 {
+  font-size: 1.7rem;
+  text-decoration-line: none;
+  color: black;
+}
+
+.about h2, .skills h2 {
+  font-size: 1.5rem;
+}
+
+.about h3, .skills h3 {
+  font-size: 1.3rem;
+}
