@@ -69,7 +69,7 @@ collections:
     - { name: body, label: Body, widget: markdown }
     - { name: type, label: Type, default: announcement, hidden: true }
   - name: socials
-    labels: Socials
+    label: Socials
     folder: static/socials
     create: true
     fields: 
@@ -79,7 +79,7 @@ collections:
     - { name: twitter, label: Twitter, widget: string }
     - { name: instagram, label: Instagram, widget: string }
   - name: services
-    labels: Services
+    label: Services
     folder: static/services
     create: true
     fields: 
