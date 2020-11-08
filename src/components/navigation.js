@@ -9,8 +9,10 @@ import '../styles/main.css';
 const NavItem = ({ text, description, file, link}) => (
   <div className="col navitem white" onClick={() => navigate(link)}>
     <Image file={file} />
-    <h3>{text}</h3>
-    <p>{description}</p>
+    <div>
+      <h3>{text}</h3>
+      <p>{description}</p>
+    </div>
   </div>
 );
 

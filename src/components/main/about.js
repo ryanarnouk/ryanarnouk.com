@@ -19,7 +19,7 @@ export default function About() {
       `}
       render={data => (
         <div className="about">
-          {/*<h1>{data.markdownRemark.frontmatter.title}</h1>*/}
+          <h1>ABOUT ME</h1>
           <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
         </div>
       )}
