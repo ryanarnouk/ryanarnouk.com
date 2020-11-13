@@ -8,9 +8,10 @@ import Navigation from '../components/navigation';
 import Landing from '../components/main/landing';
 import About from '../components/main/about';
 //import Blog from '../components/main/blog';
-//import Projects from '../components/main/projects';
+import Projects from '../components/main/projects';
 import Skills from '../components/main/skills';
 //import Projects from '../components/main/projects';
+import Experience from '../components/main/experience';
 
 import Announcement from '../components/announcement';
 
@@ -22,6 +23,8 @@ const IndexPage = () => (
       <Landing />
       <Navigation />
       <About />
+      <Experience />
+      <Projects />
       <Skills />
     </div>
   </Layout>

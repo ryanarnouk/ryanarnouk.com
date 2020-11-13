@@ -26,16 +26,7 @@ export default function Announcement() {
       render={(data, renderComponent = true) => (
         <div>
           {renderComponent ? 
-            <div style={{
-              height: '5vh', 
-              width: '100%', 
-              backgroundColor: '#9BC1BC', 
-              color: 'black', 
-              marginTop: '63px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center'
-              }}>
+            <div className="announcement">
               <div 
                 style={{justifyContent: 'center'}}
                 dangerouslySetInnerHTML={{__html: data.markdownRemark.html}}

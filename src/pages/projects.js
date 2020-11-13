@@ -7,7 +7,7 @@ const Projects = () => (
   <Layout>
     <SEO title="Projects" />
     <div>
-
+      <p>Projects</p>
     </div>
   </Layout>
 )

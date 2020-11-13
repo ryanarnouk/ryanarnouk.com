@@ -1,15 +1,15 @@
-.about h1, .skills h1 {
+.about h1, .skills h1, .experience h1, .projects h1 {
   font-size: 1.3rem;
   text-decoration-line: none;
   color: grey;
   margin: 0px;
 }
 
-.about h2, .skills h2 {
+.about h2, .skills h2, .experience h2, .projects h2 {
   font-size: 1.5rem;
 }
 
-.about h3, .skills h3 {
+.about h3, .skills h3, .experience h3, .projects h3 {
   font-size: 1.3rem;
 }
 
@@ -21,6 +21,14 @@
 .about p {
   text-align: left;
 }
+
+.experience {
+  padding: 5%;
+  background: #1C1D21;
+  color: #E6EBE0;
+  text-align: left;
+}
+
 ul {
   list-style: none;
   width: 50%;
@@ -30,4 +38,17 @@ ul {
 hr {
   border: 0;
   border-top: 6px solid #ccc;
+}
+
+.line {
+  border-left: 3px solid #E6EBE0;
+  height: 100px;
+}
+
+.skills {
+  padding: 5%;
+}
+
+.projects { 
+  padding: 5%;
 }

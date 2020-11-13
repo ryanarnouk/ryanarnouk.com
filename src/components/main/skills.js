@@ -19,7 +19,7 @@ export default function Skills() {
       `}
       render={data => (
         <div className="skills">
-          <h1>{data.markdownRemark.frontmatter.title}</h1>
+          <h1>SKILLS</h1>
           <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
         </div>
       )}
