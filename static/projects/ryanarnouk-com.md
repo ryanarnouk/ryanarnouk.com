@@ -11,6 +11,5 @@ tags:
   - graphql
   - gatsby
 type: project
-order: 1
 ---
 My personal website developed with Gatsby, React, and GraphQL database query. Hosted on Netlify and developed using the Netlify CMS for updates and a web interface. 
